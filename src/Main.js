@@ -78,7 +78,7 @@ class Main extends React.Component {
           </div>
           <div className="mainR">
             <Switch>
-              <Route exact path="/" component={Home}/>
+              <Route exact path="/work" component={Home}/>
               <Route path="/portfolio" component={Portfolio}/>
               <Route path="/about-me" component={AboutMe}/>
               <Route path="/student-life" component={StudentLife}/>

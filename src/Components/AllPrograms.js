@@ -190,28 +190,23 @@ class P3 extends React.Component {
 
     render(){
         var images = {
-            1: "https://png2.kisspng.com/sh/25b2f1556634c497aa7ecbe3d436d21f/L0KzQYm3V8A0N5psR91yc4Pzfri0kv9kc15pitNCaX7qPbTzigAuaaN5ReR4Y3vogsq0lvVkfJD3RadrM3K3dYeBhsE0a2k9RqICOEm2RYq6UcU0OGc2S6UAMkm7SIK1kP5o/kisspng-rock-drawing-clip-art-rockery-vector-5b3b4e68f13c88.0789359315306133529881.png",
+            1: "https://www.pngitem.com/pimgs/m/109-1094400_rock-paper-scissors-png-clipart-rock-paper-scissor.png",
             2: "https://www.clipartmax.com/png/full/4-40202_drawing-clipart-scissors-scissors-clip-art-black-and-white.png",
             3: "https://d347awuzx0kdse.cloudfront.net/sydneyartstore/images/resized/f8ecde09099b450b5caac1f962e8e529586a3bdb.jpg"
         }
 
         return (
-            <div style={{padding:0, paddingLeft:"1%",display:"flex", height:"100%" }}>
-                <div style={{padding:0, backgroundColor:"red", height:"100%",width:"100%", textAlign:"center" }}>
+            <div style={{padding:0, display:"flex", height:"100%", width:"100%" }}>
+                <div style={{padding:0, backgroundColor:"red", height:"100%",width:"100%", textAlign:"center"}}>
                     <p style={{margin: 0,padding:0, paddingTop:"1%", color:"white"}}>Selecciona una.</p>
-                    <div>
-                        <button> <img height={120} width={120} src={images[this.state.imageP1]}/> </button>
-                        <button onClick={ ()=>{ this.nextImage1();}}> next </button>
-                    </div>
+                    <button style={{height:"80%",width:"80%",backgroundColor:"white"}} onClick={ ()=>{ this.nextImage1();}} > <img alt={"nop"} height={"100%"} width={"100%"}  src={images[this.state.imageP1]}/> </button>
+                    {/* <button onClick={ ()=>{ this.nextImage1();}}> next </button> */}
 
                 </div>
                 <div style={{padding:0, backgroundColor:"blue", height:"100%",width:"100%", textAlign:"center" }}>
                     <p style={{margin: 0,padding:0, paddingTop:"1%", color:"white"}}>Selecciona una.</p>
-                    <div>
-                        <button> <img height={120} width={120}  src={images[this.state.imageP2]}/> </button>
-                        <button onClick={ ()=>{ this.nextImage2();}}> next </button>
-
-                    </div>
+                    <button style={{height:"80%",width:"80%", backgroundColor:"white"}} onClick={ ()=>{ this.nextImage2();}}> <img  alt={"nop"}  height={"100%"} width={"100%"}  src={images[this.state.imageP2]}/> </button>
+                    {/* <button onClick={ ()=>{ this.nextImage2();}}> next </button> */}
 
                 </div>
             </div>
