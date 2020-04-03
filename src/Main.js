@@ -67,7 +67,7 @@ class Main extends React.Component {
         <BrowserRouter>
           <div className="navBar" style={{height:(this.state.height/15)}}>
             <div className="nav-ul">
-              <div style={{width:(this.state.width/widthFunct(1))}}><NavLink to="/work"><FormattedMessage id="nav.home"/></NavLink></div>
+              <div style={{width:(this.state.width/widthFunct(1))}}><NavLink to="/"><FormattedMessage id="nav.home"/></NavLink></div>
               <div style={{width:(this.state.width/widthFunct(2))}}><NavLink to="/portfolio"><FormattedMessage id="nav.portfolio"/></NavLink></div>
               <div style={{width:(this.state.width/widthFunct(2))}}><NavLink to="/about-me"><FormattedMessage id="nav.about_me"/></NavLink></div>
               <div style={{width:(this.state.width/widthFunct(3))}}><NavLink to="/student-life"><FormattedMessage id="nav.student_life"/></NavLink></div>
@@ -78,7 +78,7 @@ class Main extends React.Component {
           </div>
           <div className="mainR">
             <Switch>
-              <Route exact path="/work" component={Home}/>
+              <Route exact path="/" component={Home}/>
               <Route path="/portfolio" component={Portfolio}/>
               <Route path="/about-me" component={AboutMe}/>
               <Route path="/student-life" component={StudentLife}/>
