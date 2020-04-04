@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/senkar/static/css/main.0360288f.chunk.css",
-    "main.js": "/senkar/static/js/main.ef653043.chunk.js",
-    "main.js.map": "/senkar/static/js/main.ef653043.chunk.js.map",
+    "main.js": "/senkar/static/js/main.40d3e605.chunk.js",
+    "main.js.map": "/senkar/static/js/main.40d3e605.chunk.js.map",
     "runtime~main.js": "/senkar/static/js/runtime~main.70ea8463.js",
     "runtime~main.js.map": "/senkar/static/js/runtime~main.70ea8463.js.map",
     "static/js/2.41288ba1.chunk.js": "/senkar/static/js/2.41288ba1.chunk.js",
     "static/js/2.41288ba1.chunk.js.map": "/senkar/static/js/2.41288ba1.chunk.js.map",
     "index.html": "/senkar/index.html",
-    "precache-manifest.a2ba2f54baf0866ed8891d4e0261ac84.js": "/senkar/precache-manifest.a2ba2f54baf0866ed8891d4e0261ac84.js",
+    "precache-manifest.cea37a8a6642ee3fd44cec38f5e5c60c.js": "/senkar/precache-manifest.cea37a8a6642ee3fd44cec38f5e5c60c.js",
     "service-worker.js": "/senkar/service-worker.js",
     "static/css/main.0360288f.chunk.css.map": "/senkar/static/css/main.0360288f.chunk.css.map"
   }
