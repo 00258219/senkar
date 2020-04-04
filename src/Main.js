@@ -68,9 +68,9 @@ class Main extends React.Component {
           <div className="navBar" style={{height:(this.state.height/15)}}>
             <div className="nav-ul">
               <div style={{width:(this.state.width/widthFunct(1))}}><NavLink to="/senkar"><FormattedMessage id="nav.home"/></NavLink></div>
-              <div style={{width:(this.state.width/widthFunct(2))}}><NavLink to="/portfolio"><FormattedMessage id="nav.portfolio"/></NavLink></div>
-              <div style={{width:(this.state.width/widthFunct(2))}}><NavLink to="/about-me"><FormattedMessage id="nav.about_me"/></NavLink></div>
-              <div style={{width:(this.state.width/widthFunct(3))}}><NavLink to="/student-life"><FormattedMessage id="nav.student_life"/></NavLink></div>
+              <div style={{width:(this.state.width/widthFunct(2))}}><NavLink to="/senkar/portfolio"><FormattedMessage id="nav.portfolio"/></NavLink></div>
+              <div style={{width:(this.state.width/widthFunct(2))}}><NavLink to="/senkar/about-me"><FormattedMessage id="nav.about_me"/></NavLink></div>
+              <div style={{width:(this.state.width/widthFunct(3))}}><NavLink to="/senkar/student-life"><FormattedMessage id="nav.student_life"/></NavLink></div>
               <div style={{width:(this.state.width/widthFunct(4))}} className="p-mini" id="d-lang">
                 <div onClick={this.changeLang}><FormattedMessage id="nav.lang"/></div>
               </div>
@@ -79,9 +79,9 @@ class Main extends React.Component {
           <div className="mainR">
             <Switch>
               <Route exact path="/senkar" component={Home}/>
-              <Route path="/portfolio" component={Portfolio}/>
-              <Route path="/about-me" component={AboutMe}/>
-              <Route path="/student-life" component={StudentLife}/>
+              <Route path="/senkar/portfolio" component={Portfolio}/>
+              <Route path="/senkar/about-me" component={AboutMe}/>
+              <Route path="/senkar/student-life" component={StudentLife}/>
             </Switch>
           </div> 
         </BrowserRouter>    
