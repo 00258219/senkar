@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0360288f.chunk.css",
-    "main.js": "/static/js/main.17d9e585.chunk.js",
-    "main.js.map": "/static/js/main.17d9e585.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.41288ba1.chunk.js": "/static/js/2.41288ba1.chunk.js",
-    "static/js/2.41288ba1.chunk.js.map": "/static/js/2.41288ba1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8208275c696b4a7098bbf785029cf324.js": "/precache-manifest.8208275c696b4a7098bbf785029cf324.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0360288f.chunk.css.map": "/static/css/main.0360288f.chunk.css.map"
+    "main.css": "/senkar/static/css/main.0360288f.chunk.css",
+    "main.js": "/senkar/static/js/main.ef653043.chunk.js",
+    "main.js.map": "/senkar/static/js/main.ef653043.chunk.js.map",
+    "runtime~main.js": "/senkar/static/js/runtime~main.70ea8463.js",
+    "runtime~main.js.map": "/senkar/static/js/runtime~main.70ea8463.js.map",
+    "static/js/2.41288ba1.chunk.js": "/senkar/static/js/2.41288ba1.chunk.js",
+    "static/js/2.41288ba1.chunk.js.map": "/senkar/static/js/2.41288ba1.chunk.js.map",
+    "index.html": "/senkar/index.html",
+    "precache-manifest.a2ba2f54baf0866ed8891d4e0261ac84.js": "/senkar/precache-manifest.a2ba2f54baf0866ed8891d4e0261ac84.js",
+    "service-worker.js": "/senkar/service-worker.js",
+    "static/css/main.0360288f.chunk.css.map": "/senkar/static/css/main.0360288f.chunk.css.map"
   }
 }
